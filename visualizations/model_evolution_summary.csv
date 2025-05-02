@@ -1,0 +1,4 @@
+round,loss,accuracy,loss_change,accuracy_change,status
+1,28.98358154296875,10.0,,,Baseline
+2,29.39624786376953,10.0,0.41266632080078125,0.0,Unchanged
+3,29.700462341308594,5.0,0.3042144775390625,-5.0,Declined

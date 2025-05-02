@@ -1,0 +1,41 @@
+{
+    "server": {
+        "address": "0.0.0.0:8088",
+        "min_clients": 2,
+        "min_available_clients": 2,
+        "num_rounds": 3
+    },
+    "blockchain": {
+        "enabled": true,
+        "ganache_url": "http://192.168.1.146:7545",
+        "contract_address": "0x056272bB5A1979Fe2ebD74160967dAe017018Ba5",
+        "owner": {
+            "address": "0xF9C1965243B05861937EB9d50fFF1Aba60F27061",
+            "private_key": "0x0549b154795ad98766e5f7b3459c56891cbf2d01d3aeec470c05d7ad946d7d9e"
+        }
+    },
+    "ipfs": {
+        "enabled": true,
+        "api_url": "http://127.0.0.1:5001/api/v0"
+    },
+    "model": {
+        "type": "SimpleModel",
+        "input_dim": 50,
+        "hidden_dims": [32, 16]
+    },
+    "training": {
+        "batch_size": 32,
+        "learning_rate": 0.01,
+        "epochs_per_round": 1
+    },
+    "institutions": {
+        "client1": {
+            "address": "0xE0bCb1D64D8f6Ca8Dfd9C186728B1fa7d1e4139C",
+            "private_key": "0xcc063c6c0fe8422a685b25f577bc7928e563060bb8a6ab77e8a1635cc4207835"
+        },
+        "client2": {
+            "address": "0x22C135D00109ffCFCA00Ff0d9fB99ab4190A28b8",
+            "private_key": "0x42468ce18e4f1083e69f5d2ec4e17f36956b44205cdc8cd685ef1f5c43e2ebe0"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+Kaggle Diabetes Dataset - Balanced Overlapping Split
+Total samples: 768
+Features: Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age
+Overall diabetes rate: 34.90%
+
+Client Summaries:
+
+client-1:
+  - Split type: balanced-overlapping
+  - Overlap percentage: 30%
+  - Glucose range: -3.78 to 2.44
+  - Class distribution: 215 non-diabetic, 115 diabetic
+  - Diabetes rate: 34.85%
+  - Train samples: 264
+  - Test samples: 66
+
+client-2:
+  - Split type: balanced-overlapping
+  - Overlap percentage: 30%
+  - Glucose range: -3.78 to 2.44
+  - Class distribution: 214 non-diabetic, 115 diabetic
+  - Diabetes rate: 34.95%
+  - Train samples: 263
+  - Test samples: 66
+
+client-3:
+  - Split type: balanced-overlapping
+  - Overlap percentage: 30%
+  - Glucose range: -3.78 to 2.38
+  - Class distribution: 217 non-diabetic, 116 diabetic
+  - Diabetes rate: 34.83%
+  - Train samples: 266
+  - Test samples: 67
